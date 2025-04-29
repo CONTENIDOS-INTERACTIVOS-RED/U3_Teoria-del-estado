@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad aborda el concepto de Estado, sus orígenes, elementos y fundamentos jurídicos. Analiza las principales teorías de pensadores como Hobbes, Rousseau, Maquiavelo, Montesquieu, Marx, Locke y Kelsen, destacando sus aportes sobre poder, soberanía y organización política. Explica los elementos esenciales del Estado: población, territorio, poder político y soberanía, así como su fundamento legal a través del constitucionalismo, el Estado de derecho y la supremacía constitucional. Este conocimiento permite comprender la estructura estatal, la dinámica del poder y el papel del derecho en la sociedad contemporánea.
+              p.descripcion.mb-4 La unidad sobre la Constitución explora su concepto, evolución histórica, funciones y relación con la democracia. Se analizan las distintas tipologías constitucionales —según forma, rigidez, origen y contenido— con ejemplos internacionales. Se destaca la Constitución Colombiana de 1991 como modelo democrático, escrita, rígida, pactada y normativa, que amplió derechos y participación ciudadana. La unidad resalta la relación entre Constitución y democracia, identificando principios como la soberanía popular, la división de poderes y la justicia social, fundamentales para garantizar la estabilidad institucional y el ejercicio pleno de la ciudadanía en un Estado de derecho.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

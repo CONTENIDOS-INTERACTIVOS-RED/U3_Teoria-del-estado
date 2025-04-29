@@ -1,8 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad:
-      'El concepto de estado,  sus orígenes, elementos, fundamentos y funciones',
+    numeroUnidad: '3',
+    tituloUnidad: 'La Constitución',
   },
   menuPrincipal: {
     menu: [
@@ -16,53 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'El Estado según Hobbes, Rousseau, Maquiavelo, Montesquieu, Marx, Locke y Kelsen',
+        titulo: 'Concepto de Constitución',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Thomas Hobbes: El Estado como garantía del orden',
+            titulo: 'Funciones de la Constitución',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo:
-              'Jean-Jacques Rousseau: El contrato social y la soberanía popular',
+            titulo: 'La Constitución en Colombia',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Nicolás Maquiavelo: El Estado como instrumento del poder',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Montesquieu: La separación de poderes.',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Karl Marx: El Estado como instrumento de dominación',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo:
-              'John Locke: El gobierno limitado y los derechos naturales.',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Hans Kelsen: El Estado como orden normativo',
-            hash: 't_1_7',
           },
         ],
       },
@@ -70,32 +36,40 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Elementos del Estado',
+        titulo: 'Tipos de Constitución',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'La población: Base Humana',
+            titulo: 'Según su forma: constituciones escritas y no escritas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'El Territorio: Límites físicos',
+            titulo: 'Según su rigidez: constituciones rígidas y flexibles',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'La Soberanía: Autoridad Suprema',
+            titulo:
+              'Según su origen: constituciones otorgadas, pactadas e impuestas',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'El Poder Político: La capacidad de gobernar',
+            titulo:
+              'Según su contenido: constituciones normativas, nominales y semánticas',
             hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'La Constitución Colombiana de 1991',
+            hash: 't_2_5',
           },
         ],
       },
@@ -103,32 +77,44 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamento jurídico y legal del Estado',
+        titulo: 'Constitución y Democracia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Evolución del fundamento jurídico del estado',
+            titulo: 'Evolución histórica de la democracia',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Principios normativos del estado',
+            titulo: 'Mecanismos de participación ciudadana',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'La Constitución: Base del fundamento jurídico del Estado',
+            titulo: 'Órganos de control en democracia',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'El Estado de Derecho: garantía de igualdad y justicia',
+            titulo: 'Desafíos contemporáneos',
             hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Democracia',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Democracia constitucional: principios fundamentales',
+            hash: 't_3_6',
           },
         ],
       },
@@ -170,46 +156,101 @@ export default {
   referencias: [
     {
       referencia:
-        'Robles Vázquez, J. & Cruz Gayosso, M. (2014). Teoría general del estado. IURE Editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40192',
+        'García Cuadrado, A. (2013). Derecho, Estado y constitución: el estatuto científico y otros temas fundamentales de derecho constitucional. ECU.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/62284',
     },
     {
       referencia:
-        'Bobbio, N. (1989). Estado, gobierno y sociedad. Fondo de Cultura Económica.',
+        'Contipelli, E. (2015). Teoría de la Constitución y bases de la institucionalidad. RIL editores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/67457',
+    },
+    {
+      referencia:
+        'Arrubla Sánchez, R. (2017). Teoría constitucional. Fundación Universitaria del Área Andina.',
       link:
-        'https://ia601609.us.archive.org/25/items/bobbio-thomas-hobbes/Bobbio%20-%20Estado_text.pdf',
+        'https://digitk.areandina.edu.co/server/api/core/bitstreams/8df5a748-4e6c-454a-9f2e-6f0168a4223a/content',
     },
     {
       referencia:
-        'Aguilar Balderas, L. (2015). Teoría general del Estado. Grupo Editorial Patria.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/3939',
+        'Scarciglia, R. (2011). Introducción al derecho constitucional comparado. Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/63089',
     },
     {
       referencia:
-        'Travis Arias Purón, R. (2015). Derecho 1. Grupo Editorial Patria.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/39483',
+        'López Sterup, H. (2011). Manual de constitución y democracia. Universidad de los Andes.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69375',
     },
     {
       referencia:
-        'Cassagne, J. C. (2016). Los grandes principios del Derecho Público (Constitucional y Administrativo). Editorial Reus.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/100489',
-    },
-    {
-      referencia:
-        'Kelsen, H. (2009). El método y los conceptos fundamentales de la teoría pura del derecho. Editorial Reus.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/46359',
+        'Barzotto, L. F. (2010). El guardián de la constitución: elementos para una epistemología de la democracia. Díkaion, 19 (2), 427-446. D - Universidad de La Sabana.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/5619',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Asamblea constituyente',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Órgano representativo encargado de redactar o reformar una Constitución. Su función principal es definir el marco normativo de un Estado.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Carta magna',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Documento fundamental que establece los principios y normas básicas de un sistema jurídico y político en un país.',
+    },
+    {
+      termino: 'Constitución',
+      significado:
+        'Conjunto de normas supremas que regulan la organización del Estado, los derechos fundamentales y la estructura del poder público.',
+    },
+    {
+      termino: 'Control constitucional',
+      significado:
+        'Mecanismo mediante el cual se verifica la conformidad de las leyes y actos gubernamentales con la Constitución.',
+    },
+    {
+      termino: 'Democracia',
+      significado:
+        'Sistema político en el que los ciudadanos participan en la toma de decisiones, ya sea de manera directa o a través de representantes elegidos.',
+    },
+    {
+      termino: 'Derechos fundamentales',
+      significado:
+        'Conjunto de garantías inherentes a todas las personas, protegidos por la Constitución y los tratados internacionales.',
+    },
+    {
+      termino: 'Estado de derecho',
+      significado:
+        'Principio según el cual todas las personas, incluidos los gobernantes, están sujetas a la ley y deben respetar la Constitución.',
+    },
+    {
+      termino: 'Garantías constitucionales',
+      significado:
+        'Instrumentos jurídicos previstos en la Constitución para asegurar el respeto y cumplimiento de los derechos fundamentales.',
+    },
+    {
+      termino: 'Mecanismos de participación ciudadana',
+      significado:
+        'Herramientas mediante las cuales la población puede intervenir en la gestión pública, como el referendo, la consulta popular y el plebiscito.',
+    },
+    {
+      termino: 'Monarquía constitucional',
+      significado:
+        'Sistema político en el que un monarca ejerce funciones simbólicas dentro del marco de una Constitución que regula el poder del gobierno.',
+    },
+    {
+      termino: 'Poder constituyente',
+      significado:
+        'Autoridad encargada de elaborar, modificar o reformar una Constitución, expresando la voluntad soberana de la nación.',
+    },
+    {
+      termino: 'Principio de separación de poderes',
+      significado:
+        'Organización del Estado en ramas independientes (Ejecutivo, Legislativo y Judicial) para evitar la concentración de poder y garantizar el equilibrio institucional.',
+    },
+    {
+      termino: 'Supremacía constitucional',
+      significado:
+        'Principio según el cual la Constitución es la norma jurídica suprema, por lo que todas las leyes y actos del Estado deben estar en conformidad con ella.',
     },
   ],
 }

@@ -1,201 +1,233 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Elementos del Estado'")
+    BannerInterno(:subTitulo="'2. Tipos de Constitución'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      .row.mb-4.mx-0
-        .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-          img.h-100(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
-          p.mb-0(data-aos="fade-up") El Estado no es una entidad abstracta, sino que se materializa a través de una serie de elementos esenciales que permiten su existencia y funcionamiento. Estos elementos son la población, el territorio, el poder político y la soberanía. Su análisis es crucial porque permite entender cómo se configura un Estado, cuáles son sus funciones básicas y cómo interactúa con la sociedad.
 
-      .row.mb-4
-        .col-12.col-xl-8(data-aos="fade-up")
-          p.mb-4 La población es el conjunto de individuos que habitan en un Estado y sobre los cuales este ejerce su autoridad. Es un elemento dinámico, pues su composición, distribución y estructura demográfica influyen directamente en la forma en que el Estado organiza sus políticas públicas y garantiza derechos fundamentales. El territorio, por su parte, es el espacio geográfico donde el Estado ejerce su poder. Incluye el suelo, el subsuelo, el mar territorial y el espacio aéreo, y su delimitación es clave en las relaciones internacionales y en la administración interna del Estado.
-          .bg-azul.p-4
-            span El poder político es el instrumento mediante el cual el Estado regula la convivencia social y toma decisiones en nombre del interés general. Este poder debe ser legítimo para ser aceptado por la población y garantizar estabilidad. Finalmente, la soberanía es el principio que otorga al Estado la capacidad de autogobernarse sin interferencias externas. La soberanía interna permite la aplicación de leyes dentro del territorio, mientras que la soberanía externa se refiere al reconocimiento del Estado por parte de la comunidad internacional.
-
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
-  
-      .d-flex.align-items-start.bg-full-width.bg-morado.text-white.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-38.svg', alt='Texto descriptivo de la imagen')
-        .my-auto
-          p.pe-xl-3.mb-0 Comprender estos elementos es esencial para analizar cómo operan los Estados modernos y qué condiciones deben cumplirse para que una entidad política sea reconocida como un Estado en el ámbito nacional e internacional.
+      .row.mb-4.bg-marron.p-4.pb-xl-0
+        .col-12.col-xl-10
+          p.my-auto El concepto de Constitución es <b>dinámico</b>: evoluciona según las transformaciones históricas, políticas y sociales. Como señala <b>Arrubla Sánchez (2017)</b>, <i>“El concepto de Constitución no es estático, sino que responde a los cambios políticos y sociales de cada época”</i> (p. 45). Esta naturaleza mutable explica por qué existen distintos tipos de constituciones, cada una adaptada a contextos particulares.
+        .col-2.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
 
       #t_2_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.1
-          h2 La población: Base Humana.
+          h2 Según su forma: constituciones escritas y no escritas
 
-      p.mb-4(data-aos="fade-up") La población es el conjunto de individuos que habita dentro del territorio del Estado y constituye el fundamento humano del mismo. Sin este grupo de personas, el Estado no podría cumplir su función básica de organizar y regular la vida en sociedad.
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3
 
-      .row.mb-4
-        .col-12.col-lg-4(data-aos="fade-right")
-          .bg-marron.p-4
-            span Según Arias Purón (2014), "la población no solo es una cantidad de personas, sino una comunidad organizada que interactúa bajo normas comunes que el Estado implementa y regula" (p. 75). Este aspecto subraya la relación dinámica entre la población y las instituciones estatales. Además, puede analizarse desde una perspectiva demográfica, económica y sociológica. 
-        .col-4.d-none.d-lg-block
-          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-4(data-aos="fade-left")
-          .bg-gris.p-4
-            span Factores como el crecimiento poblacional, la migración y las dinámicas sociales afectan directamente las políticas públicas y la administración del Estado. Por ejemplo, los países con altas tasas de migración deben adaptar sus sistemas legales y sociales para integrar a las nuevas comunidades, mientras que aquellos con disminución poblacional enfrentan desafíos económicos y laborales.
-
-      p.mb-4(data-aos="fade-up") La clasificación de la población es: 
-
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8(data-aos="fade-up")
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-41.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-2.text-bold  Ciudadanos
-              span Son aquellos individuos que tienen derechos y deberes dentro del Estado, como el derecho al voto y la participación política.
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-42.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-2.text-bold Extranjeros 
-              span Personas que residen en el territorio sin ser ciudadanos. Sus derechos pueden estar restringidos dependiendo del ordenamiento jurídico.
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-43.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-2.text-bold Apátridas
-              span Individuos que no poseen nacionalidad reconocida por ningún Estado.
+          .row.mb-4.justify-content-center
+            .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-22.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Constituciones escritas
+                p.px-1.text-small.mb-0.text-center Codificadas en un único documento. Se consolidaron desde el siglo XVIII, destacando la Constitución de EE. UU. (1787). Su estructura clara facilita la interpretación y aplicación jurídica.
+            .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-23.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Constituciones no escritas
+                p.px-1.text-small.mb-0.text-center Basadas en la costumbre, precedentes judiciales y diversos documentos históricos. Ejemplo paradigmático: Reino Unido (Carta Magna de 1215, Bill of Rights de 1689). Aunque carecen de sistematicidad, pueden ofrecer gran estabilidad institucional.
 
       #t_2_2.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.2
-          h2 El Territorio: Límites físicos.
-        
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4(data-aos="fade-up") El territorio es uno de los elementos fundamentales del Estado, ya que constituye el espacio geográfico en el que este ejerce su soberanía. Incluye no solo la superficie terrestre, sino también el espacio aéreo, el subsuelo y las aguas territoriales. Según Aguilar Balderas (2015), “el territorio es indispensable porque representa el marco físico en el que el Estado puede aplicar su normatividad y cumplir sus funciones básicas” (p. 62). Esta dimensión territorial garantiza la delimitación espacial del poder estatal.
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-44.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 El suelo no es estático; su delimitación puede variar a lo largo del tiempo debido a conflictos, tratados internacionales o decisiones judiciales. Ejemplos históricos, como los cambios fronterizos en Europa tras la Segunda Guerra Mundial, ilustran la manera como los Estados adaptan su territorio a nuevas realidades políticas y sociales. Asimismo, este es objeto de regulación internacional, como lo establece el derecho internacional en tratados y por medio de acuerdos multilaterales.
+          h2 Según su rigidez: constituciones rígidas y flexibles
 
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+      p.mb-4 Este criterio considera la facilidad o dificultad para reformar la Constitución, lo que refleja el equilibrio entre estabilidad institucional y capacidad de adaptación política.
 
-      .row.bg-morado.text-white.bg-full-width.mb-4
-        div.px-5.pb-md-3
+      TabsC.mb-4
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Constituciones rígidas', :icon="require('@/assets/curso/unidad/img-24.svg')")
           .row
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8.d-flex(data-aos="fade-up")
-              p.my-auto Además, el territorio tiene implicaciones económicas y políticas significativas; es una fuente de recursos naturales y un factor determinante en el desarrollo de las políticas públicas. Por ejemplo, las disputas territoriales entre Estados, como las controversias marítimas, evidencian la importancia de delimitar fronteras claras para evitar conflictos internacionales. En este sentido, el derecho internacional desempeña un rol clave al establecer mecanismos de resolución de disputas y normativas aplicables.
-
-      ImagenInfografica.color-secundario.mb-4.bg-white
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-47.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='24%' y='31%' numero='+')
-          .h5.mb-2 Territorio terrestre 
-          p Comprende la superficie continental e insular donde se establece la población del Estado.
-        .tarjeta.bg-white.p-4(x='35.5%' y='83%' numero='+')
-          .h5.mb-2 Mar territorial
-          p Extensión de mar adyacente a las costas del Estado, sobre la cual tiene derechos de soberanía.
-        .tarjeta.bg-white.p-4(x='78.5%' y='31%' numero='+')
-          .h5.mb-2 Espacio aéreo
-          p Cubre la vertical del territorio hasta una altura determinada por el derecho internacional.
-        .tarjeta.bg-white.p-4(x='66.5%' y='83%' numero='+')
-          .h5.mb-2 Subsuelo
-          p Incluye los recursos minerales y energéticos contenidos en el interior de la tierra dentro de sus límites.
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-25.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Constituciones rígidas
+              p(data-aos='fade-up') Requieren procedimientos complejos para su reforma (mayorías cualificadas, referendos). Buscan proteger el orden constitucional. Ejemplo: EE. UU., donde una enmienda necesita aprobación por dos tercios del Congreso y ratificación por tres cuartas partes de los estados.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Constituciones flexibles', :icon="require('@/assets/curso/unidad/img-24.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-26.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Constituciones flexibles
+              p(data-aos='fade-up') Pueden modificarse mediante los mismos procedimientos legislativos que las leyes ordinarias. Favorecen la adaptación, pero pueden generar inestabilidad. Ejemplo: Reino Unido, donde el Parlamento puede modificar principios constitucionales por ley común.
 
       #t_2_3.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.3
-          h2 La Soberanía: Autoridad Suprema.
+          h2 Según su origen: constituciones otorgadas, pactadas e impuestas
 
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
-          p.mb-4(data-aos="fade-up") La soberanía es el poder supremo del Estado para ejercer su autoridad dentro de su territorio y establecer relaciones con otros Estados en el ámbito internacional. Este concepto representa la independencia política y jurídica del Estado frente a influencias externas. Arias Purón (2014) explica que “la soberanía no solo implica el control interno, sino también el reconocimiento de la autonomía estatal en el contexto internacional” (p. 80).
-          p.mb-4(data-aos="fade-up") Los tipos de soberanía son:
+
+          p.mb-4 Esta clasificación se basa en el proceso de elaboración y en el grado de participación ciudadana, factores determinantes en su legitimidad democrática.
 
           .row.mb-4
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
+            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
               div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
                 div.mb-4
-                  p.text-bold.text-center Soberanía interna
-                  p.text-small.px-4.text-center.pb-2 Se refiere a la autoridad del estado dentro de su territorio, garantizando el orden jurídico.
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
+                  p.text-bold.text-center Constituciones otorgadas
+                  p.text-small.px-4.text-center.pb-2 Impuestas unilateralmente por una autoridad (e.g., monarca), sin intervención del pueblo. Se presentan como concesión. Ejemplo: Carta Constitucional francesa de 1814, otorgada por Luis XVIII.
+            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
               div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
+                img.mb-4(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
                 div.mb-4
-                  p.text-bold.text-center Soberanía externa
-                  p.text-small.px-4.text-center.pb-2 Implica el reconocimiento del estado por la comunidad internacional y su capacidad para establecer vínculos diplomáticos.
+                  p.text-bold.text-center Constituciones pactadas
+                  p.text-small.px-4.text-center.pb-2 Resultado de acuerdos entre diversos sectores políticos. Generan mayor aceptación y legitimidad social. Ejemplo: Constitución española de 1837, fruto de un pacto entre la monarquía y las Cortes.
+            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
+              div.custom-image-card.rounded-8px
+                img.mb-4(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
+                div.mb-4
+                  p.text-bold.text-center Constituciones impuestas
+                  p.text-small.px-4.text-center.pb-2 Elaboradas sin participación ciudadana, típicamente durante regímenes autoritarios. Su legitimidad es cuestionada, aunque se sometan a referendos. Ejemplo: Constitución chilena de 1980, redactada bajo la dictadura de Pinochet.
 
       #t_2_4.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 2.4
-          h2 El Poder Político: La capacidad de gobernar.
+          h2 Según su contenido: constituciones normativas, nominales y semánticas
 
-      p.mb-4(data-aos="fade-up") El poder político es el mecanismo a través del cual el Estado ejerce su autoridad y administra su territorio y población. Es la fuerza organizativa que garantiza el cumplimiento de las leyes y la implementación de políticas públicas.
-
-      .row.mb-4
-        .col-12.col-xl-8(data-aos="fade-up")
-          .d-flex.align-items-start.bg-gris.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-50.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 Aguilar Balderas (2015) señala que “el poder político es la manifestación práctica de la soberanía, utilizada por los órganos de gobierno para alcanzar los objetivos esenciales del Estado” (p. 68). Este poder se ejerce a través de instituciones como el Ejecutivo, el Legislativo y el Judicial, que trabajan en conjunto para mantener el orden y el bienestar social. 
-          p.mb-4 Así pues, tiene diferentes formas y estructuras dependiendo del sistema de gobierno. En los sistemas democráticos, este poder se legitima a través del sufragio y la participación ciudadana; en los regímenes autoritarios, suele concentrarse en un líder o grupo reducido. La relación entre el poder político y la población es dinámica, ya que los ciudadanos influyen en las políticas mediante procesos como las elecciones y las protestas sociales.
-          span Las características del poder político son:
-
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+      p.mb-4 Este enfoque considera si la Constitución realmente se aplica y cumple con lo que establece, más allá de su redacción formal.
 
       .row.mb-4
-        .col-10.col-md-6.col-xl-4.mx-auto
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-52.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Legitimidad
-              span Debe ser aceptado por la población para asegurar estabilidad.
-        .col-10.col-md-6.col-xl-4.mx-auto
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-53.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Monopolio del uso de la fuerza
-              span Solo el estado puede ejercer la coacción legítima.
-        .col-10.col-md-6.col-xl-4.mx-auto
-          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-54.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Autonomía
-              span Opera sin depender de poderes externos.
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Constituciones normativas")
+              p Se aplican plenamente, regulan eficazmente el poder y garantizan derechos. Ejemplo: Constitución alemana de 1949, clave en la consolidación democrática y la estabilidad del país.
+            .div(titulo="Constituciones nominales")
+              p Recogen derechos y principios en el texto, pero su cumplimiento es limitado por debilidades institucionales o falta de voluntad política. Ejemplo: Constitución venezolana de 1999, con una amplia carta de derechos poco respetada en la práctica.
+            .div(titulo="Constituciones semánticas")
+              p Utilizadas por regímenes autoritarios como herramienta de legitimación sin respeto real a sus principios. Ejemplo: Constitución soviética de 1936, que proclamaba libertades mientras concentraba el poder en el Partido Comunista.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
 
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8(data-aos="fade-up")
-          p.mb-4 Ahora bien, es importante destacar que el gobierno no es un elemento esencial del Estado, sino una institución dentro de él. Mientras que los elementos del Estado son permanentes (población, territorio, poder político y soberanía), el gobierno es un órgano administrativo encargado de gestionar el poder político y aplicar las leyes. 
-          .bg-azul.p-4
-            span Puede cambiar de forma sin que el Estado desaparezca. El gobierno es temporal y varía según el sistema político, mientras que el poder político es un componente esencial e inmutable del Estado. Esta distinción es clave para evitar confusiones entre la estructura del Estado y la administración gubernamental.
-      
-      .row.bg-morado.text-white.bg-full-width.mb-5
-        div.px-5.pb-md-3.row
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-8.d-flex(data-aos="fade-up")
-            p.my-auto Los elementos del Estado son fundamentales para su existencia y funcionamiento. La población es el componente humano sobre el cual se ejerce la autoridad, el territorio delimita su espacio de acción, el poder político permite su organización y la soberanía garantiza su autonomía. Sin estos elementos, no se podría hablar de un Estado propiamente dicho. Cada uno de estos aspectos se interrelacionan y evoluciona n según las condiciones históricas, políticas y sociales.
+      .d-flex.align-items-start.bg-morado.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-31.svg', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0.text-white Como advierte <b>Scarciglia (2011)</b>: <i>“La efectividad de una Constitución no depende solo de su texto, sino de las condiciones políticas y sociales que permiten su aplicación”</i> (p. 56).
+
+      #t_2_5.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.5
+          h2 La Constitución Colombiana de 1991
+
+      p.mb-4 La Constitución Política de Colombia de 1991 es un ejemplo representativo de una carta política moderna y democrática. Puede analizarse desde las distintas clasificaciones anteriores:
+
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-32.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='36%' y='70%' numero='+')
+          .h5.mb-2 Forma
+          p <b>Escrita:</b> Recogida en un documento sistemático que facilita su interpretación jurídica.
+        .tarjeta.bg-white.p-4(x='45.5%' y='70%' numero='+')
+          .h5.mb-2 Origen
+          p <b>Pactada:</b> Producto del consenso entre partidos, movimientos sociales y ciudadanía, impulsado por la Séptima Papeleta en 1990.
+        .tarjeta.bg-white.p-4(x='55%' y='70%' numero='+')
+          .h5.mb-2 Rigidez
+          p <b>Rígida:</b> Su reforma exige procedimientos especiales (artículo 375), como actos legislativos aprobados en dos periodos o mecanismos como referendo o Asamblea Constituyente.
+        .tarjeta.bg-white.p-4(x='64%' y='70%' numero='+')
+          .h5.mb-2 Contenido
+          p <b>Normativa:</b> Se aplica efectivamente, regula el poder del Estado y garantiza derechos fundamentales. La creación de la acción de tutela ha sido uno de sus logros más relevantes.
+
+      .d-flex.align-items-start.bg-marron-oscuro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 100px' src='@/assets/curso/unidad/img-33.png', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0 Esta Constitución representó un <b>hito democrático</b> en la historia del país. Incorporó valores como el <b>pluralismo</b>, la <b>descentralización</b>, la <b>participación ciudadana</b> y el <b>reconocimiento de la diversidad étnica y cultural</b>, consolidando el modelo de <b>Estado social de derecho</b>.
+
+      p.mb-4 <b>Tabla 1.</b>  Tipos de constitución, ventajas y desventajas.
+
+      .tabla-a.mb-5
+        table
+          thead
+            tr
+              th.bg-morado.text-white.text-center Tipo de Constitución
+              th.bg-morado.text-white.text-center Características
+              th.bg-morado.text-white.text-center Ventajas
+              th.bg-morado.text-white.text-center Desventajas
+              th.bg-morado.text-white.text-center País Ejemplo
+          tbody
+            tr
+              td.text-bold Escrita
+              td Se encuentra contenida en un documento formal. Es sistemática y organizada.
+              td Mayor claridad y estabilidad. Facilita su interpretación y aplicación.
+              td Puede volverse rígida si el proceso de reforma es complejo.
+              td Brasil (Constitución de 1988)
+            tr
+              td.text-bold No Escrita
+              td Basada en normas, costumbres y jurisprudencia. No está codificada en un solo documento.
+              td Se adapta con mayor facilidad a los cambios políticos y sociales.
+              td Falta de certeza jurídica, ya que su interpretación depende de la costumbre.
+              td Nueva Zelanda
+            tr
+              td.text-bold Rígida
+              td Su modificación requiere procedimientos especiales (reformas por mayoría calificada, referéndum, etc.).
+              td Proporciona estabilidad y protege principios fundamentales.
+              td Puede dificultar la adaptación a cambios sociales o políticos.
+              td Chile (Constitución de 1980, reformada en 2005)
+            tr
+              td.text-bold Flexible
+              td Se puede modificar mediante procesos legislativos ordinarios.
+              td Permite adaptarse con rapidez a nuevas realidades.
+              td Puede generar inestabilidad si se cambia con demasiada frecuencia.
+              td Dinamarca
+            tr
+              td.text-bold Otorgada
+              td Impuesta unilateralmente por un gobernante o poder central.
+              td Permite una transición rápida hacia una organización política.
+              td Falta de legitimidad democrática y posible rechazo social.
+              td Tailandia (Constitución de 2017, redactada por la junta militar)
+            tr
+              td.text-bold Pactada
+              td Resultado de un acuerdo entre diferentes actores políticos o sociales.
+              td Mayor legitimidad y aceptación social.
+              td Puede generar conflictos si los acuerdos no son claros o equitativos.
+              td España (Constitución de 1978)
+            tr
+              td.text-bold Impuesta
+              td Surge tras una situación de fuerza, como una revolución o intervención militar.
+              td Puede responder rápidamente a crisis o cambios drásticos.
+              td Alto riesgo de falta de legitimidad y resistencia social.
+              td Turquía (Constitución de 1982, tras el golpe de Estado de 1980)
+            tr
+              td.text-bold Normativa (según Loewenstein)
+              td Se aplica efectivamente y regula la realidad política.
+              td Garantiza el cumplimiento de derechos y principios democráticos.
+              td Puede volverse rígida si no permite adecuaciones a la sociedad.
+              td Canadá
+            tr
+              td.text-bold Nominal (según Loewenstein)
+              td Existen formalmente, pero no se cumplen en la práctica.
+              td Puede ser el primer paso hacia una futura aplicación efectiva.
+              td Genera desconfianza en el sistema legal si no se respeta.
+              td Rusia (Constitución de 1993, con limitaciones en su aplicación efectiva)
+            tr
+              td.text-bold Semántica (según Loewenstein)
+              td Se usa para justificar regímenes autoritarios sin garantizar derechos.
+              td Puede estabilizar a corto plazo un sistema de gobierno.
+              td Suelen servir para mantener el poder en una élite gobernante.
+              td Corea del Norte
 
       .bg-full-width.border-top-9-azul
-      .px-5.pt-5.pb-0
-        h2 Material complementario
-        .row
-          .col-12.col-md-6.col-lg-8
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/69366") Orjuela Escobar, L. J. (2010). El Estado en Colombia. Universidad de los Andes.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/Eux0C7fvqiI?si=ceoiXEqNggnb0yXA") [Vídeo] Universidad continental (2021, 6 de mayo) El estado, definición y elementos.
-          .col-12.col-md-6.col-lg-3
-            figure
-              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-  </template>
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/7512") Meléndez, F. (2006). Instrumentos internacionales sobre derechos humanos aplicables a la administración de justicia: estudio constitucional comparado. Editorial Miguel Ángel Porrúa.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=ffv3dQCmR_U&t=296s") [Vídeo] Universidad Continental. (2021). Las constituciones rígidas y flexibles.
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
+      p 
+      
+</template>
 
 <script>
 export default {
