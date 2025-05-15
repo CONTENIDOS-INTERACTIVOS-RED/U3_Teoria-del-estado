@@ -101,9 +101,9 @@
           .my-auto
             p.mb-4.text-white A continuación, se aborda cómo el estado emocional de los estudiantes influye directamente en su capacidad para concentrarse y aprender.
             TarjetaAudio.color-secundario.bg-white.mb-3(
-              texto='Texto descriptivo del audio'
+              texto='Teoría del estado.'
               tiempo
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/Teoria_del_estado_Podcast_Unidad_III.mp3')"
               @audio-hover='mostrarIndicadorTarjetaAudio = false'
             )
 
@@ -200,7 +200,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Modelos de Democracia Constitucional
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Modelos de Democracia Constitucional , donde se aborda la evolución y diversidad de formas que ha tomado la democracia constitucional a lo largo del tiempo, adaptándose a contextos políticos, sociales y económicos específicos.
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Modelos de Democracia Constitucional, donde se aborda la evolución y diversidad de formas que ha tomado la democracia constitucional a lo largo del tiempo, adaptándose a contextos políticos, sociales y económicos específicos.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Modelos de Democracia Constitucional.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Modelos de Democracia Constitucional

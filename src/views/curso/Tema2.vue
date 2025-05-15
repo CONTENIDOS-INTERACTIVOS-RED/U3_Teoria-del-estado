@@ -17,6 +17,8 @@
       .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
 
+          p.mb-4 Una de las formas más evidentes de clasificar las constituciones es por su expresión documental: si están contenidas en un solo texto sistemático o si se basan en diversas fuentes normativas y tradicionales.
+
           .row.mb-4.justify-content-center
             .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
               .custom-image-card.d-flex.flex-column.p-4.py-md-5

@@ -60,31 +60,31 @@
     p.mb-4 Las Constituciones cumplen múltiples funciones esenciales para el buen funcionamiento del Estado:
 
     .row.mb-4
-      .col-10.col-md-6.col-xl-4.mb-xl-4
+      .col-10.col-md-6.col-xl-4.mb-4
         .d-flex.align-items-start.bg-marron-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-10.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Función organizativa
             span Define la estructura estatal y la competencia de cada órgano.
-      .col-10.col-md-6.col-xl-4.mb-xl-4
+      .col-10.col-md-6.col-xl-4.mb-4
         .d-flex.align-items-start.bg-marron-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-11.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Función legitimadora
             span Otorga legalidad al ejercicio del poder dentro del marco democrático.
-      .col-10.col-md-6.col-xl-4.mb-xl-4
+      .col-10.col-md-6.col-xl-4.mb-4
         .d-flex.align-items-start.bg-marron-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-12.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Función garantista
             span Protege los derechos fundamentales, limitando al poder público.
-      .col-10.col-md-6.col-xl-4.mb-xl-4
+      .col-10.col-md-6.col-xl-4.mb-4
         .d-flex.align-items-start.bg-marron-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-13.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Función de estabilidad 
             span Asegura continuidad institucional y previsibilidad jurídica.
-      .col-10.col-md-8.mb-xl-4
+      .col-10.col-md-8.mb-xl-4.mx-auto
         .d-flex.align-items-start.bg-marron-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-14.svg', alt='Texto descriptivo de la imagen')
           .my-auto
@@ -161,7 +161,7 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto La Constitución: fundamento de la organización estatal y la garantía de los derechos
-          p.mb-5(data-aos="fade-up") Se invita a leer el documento La Constitución: fundamento de la organización estatal y la garantía de los derechos , donde se aborda la función esencial de la Constitución como base del Estado y garantía de los derechos humanos
+          p.mb-5(data-aos="fade-up") Se invita a leer el documento La Constitución: fundamento de la organización estatal y la garantía de los derechos, donde se aborda la función esencial de la Constitución como base del Estado y garantía de los derechos humanos
           a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_La Constitución.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La Constitución: fundamento de la organización estatal y la garantía de los derechos
